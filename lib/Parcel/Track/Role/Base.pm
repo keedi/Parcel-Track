@@ -4,7 +4,7 @@ package Parcel::Track::Role::Base;
 use Moo::Role;
 use Types::Standard qw( Str );
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 has id => (
     is  => 'ro',
