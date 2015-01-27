@@ -63,7 +63,7 @@ Returns official link to track parcel.
 =method track
 
 Returns C<HASHREF> which contains information of tracking the parcel.
-C<HASHREF> MUST contain follwing key and value pairs.
+C<HASHREF> MUST contain following key and value pairs.
 
 =for :list
 * C<from>: C<SCALAR>.

@@ -213,7 +213,7 @@ Returns C<HASHREF> which contains information of tracking the parcel.
     print "$_\n" for @{ $info->{htmls} };
     print "$_\n" for @{ $info->{descs} };
 
-C<HASHREF> MUST contain follwing key and value pairs.
+C<HASHREF> MUST contain following key and value pairs.
 
 =for :list
 * C<from>: C<SCALAR>.
