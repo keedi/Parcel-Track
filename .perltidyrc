@@ -40,4 +40,5 @@
 -wbb="% + - * / x != == >= <= =~ !~ < > | &"
         # Break before all operators except assignment
 
--ole=unix # line endings
+# does not work well with tidyall
+#-ole=unix # line endings
