@@ -9,7 +9,7 @@ use Module::Runtime;
 use Params::Util 0.14 ();
 use Try::Tiny;
 
-our $VERSION = '0.000';
+our $VERSION = '0.001';
 
 has driver => (
     is      => 'ro',
@@ -104,6 +104,8 @@ sub _PRIVATE {
 # COPYRIGHT
 
 __END__
+
+=for Pod::Coverage BUILDARGS
 
 =head1 SYNOPSIS
 

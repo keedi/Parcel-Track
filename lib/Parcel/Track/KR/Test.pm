@@ -5,6 +5,8 @@ use utf8;
 
 use Moo;
 
+our $VERSION = '0.001';
+
 with 'Parcel::Track::Role::Base';
 
 use Encode qw( encode_utf8 );
@@ -60,6 +62,8 @@ sub clear { 1 }
 
 __END__
 
+=for Pod::Coverage BUILDARGS
+
 =head1 SYNOPSIS
 
     # create a testing tracker
@@ -84,3 +88,12 @@ __END__
 
 This module is a Parcel::Track driver for the Regional-Class Test.
 Except for the name, it is otherwise identical to L<Parcel::Track::Test>.
+
+
+=attr id
+
+=method uri
+
+=method track
+
+=method clear
