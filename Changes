@@ -1,6 +1,7 @@
 Revision history for {{ $dist->name }}
 
 {{ $NEXT }}
+    - Fix typo in POD document: driver private parameters
 
 0.002     2015-01-28 11:35:46+09:00 Asia/Seoul
     - Fix typo in POD document
