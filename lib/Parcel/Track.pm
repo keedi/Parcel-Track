@@ -123,8 +123,8 @@ __END__
         print "$result->{from}\n";
         print "$result->{to}\n";
         print "$result->{result}\n";
-        print "$result->{detail}\n";
-        print "$result->{html}\n";
+        print "$_\n" for @{ $result->{descs} };
+        print "$_\n" for @{ $result->{htmls} };
     }
     else {
         print "Failed to track information\n";
