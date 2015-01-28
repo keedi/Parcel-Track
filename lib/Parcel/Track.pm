@@ -48,7 +48,6 @@ sub BUILDARGS {
         }
     };
     unless ( $driver_class->can('new') ) {
-        #Carp::croak("Driver Error: $driver_class->new did not return a driver object");
         Carp::croak("$driver_class does not have new method");
     }
     my $driver = $driver_class->new(
@@ -56,7 +55,6 @@ sub BUILDARGS {
         $class->_PRIVATE(@args),
     );
     unless ( $driver->can('does') && $driver->does('Parcel::Track::Role::Base') ) {
-        #Carp::croak("Driver Error: $driver_class->new did not return a driver object");
         Carp::croak("$driver_class does not have Parcel::Track::Role::Base role");
     }
 
