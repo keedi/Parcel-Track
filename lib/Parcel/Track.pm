@@ -151,8 +151,8 @@ You can access attributes and methods of specific driver.
         _username => 'keedi',
         _password => 'keedi',
     );
-    $tracker->driver->_username;
-    $tracker->driver->_password;
+    $tracker->driver->username; # NOT _username BUT username
+    $tracker->driver->password; # NOT _password BUT password
     $tracker->driver->foo( $dummy1 );
     $tracker->driver->bar( $dummy2, $dummy3 );
 
@@ -186,7 +186,14 @@ standardised features within the L<Parcel::Track> API itself. At this
 time, there are no usable public options.
 
 Params B<with> a leading underscore are "private" driver-specific options
-and will be passed through to the driver unchanged.
+and will be passed through to the driver B<without> the underscore.
+
+    $tracker = Parcel::Track->new( 'MyDriver', '123-456-789-012',
+        _username => 'keedi',
+        _password => 'keedi',
+    );
+    $tracker->driver->username; # NOT _username BUT username
+    $tracker->driver->password; # NOT _password BUT password
 
 Returns a new L<Parcel::Track> object, or dies on error.
 
