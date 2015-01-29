@@ -119,7 +119,6 @@ __END__
     
     # Get the information what you want.
     if ( $result ) {
-        print "Message sent ok\n";
         print "$result->{from}\n";
         print "$result->{to}\n";
         print "$result->{result}\n";
@@ -233,5 +232,6 @@ C<HASHREF> MUST contain following key and value pairs.
 =head1 SEE ALSO
 
 =for :list
+* L<Parcel::Track::KR::CJKorea>
 * L<Parcel::Track::KR::PostOffice>
 * L<SMS::Send>
