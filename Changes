@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}
 
 {{ $NEXT }}
+
+0.005     2015-02-02 13:12:37+09:00 Asia/Seoul
     - Update document: add Parcel::Track::KR::* link
         - Parcel::Track::KR::Dongbu
         - Parcel::Track::KR::Hanjin
