@@ -1,6 +1,11 @@
 Revision history for {{ $dist->name }}
 
 {{ $NEXT }}
+    - Update document: add Parcel::Track::KR::* link
+        - Parcel::Track::KR::Dongbu
+        - Parcel::Track::KR::Hanjin
+        - Parcel::Track::KR::KGB
+        - Parcel::Track::KR::Yellowcap
 
 0.004     2015-01-29 18:02:56+09:00 Asia/Seoul
     - Update document: add Parcel::Track::KR::CJKorea link

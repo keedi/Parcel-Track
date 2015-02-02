@@ -233,5 +233,9 @@ C<HASHREF> MUST contain following key and value pairs.
 
 =for :list
 * L<Parcel::Track::KR::CJKorea>
+* L<Parcel::Track::KR::Dongbu>
+* L<Parcel::Track::KR::Hanjin>
+* L<Parcel::Track::KR::KGB>
 * L<Parcel::Track::KR::PostOffice>
+* L<Parcel::Track::KR::Yellowcap>
 * L<SMS::Send>
