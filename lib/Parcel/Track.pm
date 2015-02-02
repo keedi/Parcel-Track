@@ -9,7 +9,7 @@ use Module::Runtime;
 use Params::Util 0.14 ();
 use Try::Tiny;
 
-our $VERSION = '0.005';
+our $VERSION = '0.006';
 
 has driver => (
     is      => 'ro',
